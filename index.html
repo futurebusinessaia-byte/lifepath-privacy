@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifePath Privacy Policy</title>
+    <meta name="description" content="Privacy Policy for LifePath, a personal planning application developed by InfraAgentAI.">
+    <meta name="robots" content="index, follow">
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #64748b;
+            --accent: #2563eb;
+            --accent-hover: #1d4ed8;
+            --border-color: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+            --badge-border: #bfdbfe;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #0b0f19;
+                --card-bg: #111827;
+                --text-primary: #f9fafb;
+                --text-secondary: #cbd5e1;
+                --text-muted: #94a3b8;
+                --accent: #3b82f6;
+                --accent-hover: #60a5fa;
+                --border-color: #1f2937;
+                --badge-bg: #1e293b;
+                --badge-text: #93c5fd;
+                --badge-border: #2563eb;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            padding: 2.5rem 1rem;
+        }
+
+        .container {
+            max-width: 780px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 3rem 2.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 2rem;
+            margin-bottom: 2.25rem;
+        }
+
+        .meta-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .badge {
+            display: inline-block;
+            font-size: 0.8125rem;
+            font-weight: 600;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            background-color: var(--badge-bg);
+            color: var(--badge-text);
+            border: 1px solid var(--badge-border);
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+            color: var(--text-primary);
+            margin-bottom: 0.75rem;
+            line-height: 1.25;
+        }
+
+        .last-updated {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .intro {
+            margin-bottom: 2rem;
+        }
+
+        .intro p {
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+        }
+
+        .policy-section {
+            margin-bottom: 2.25rem;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.875rem;
+            letter-spacing: -0.015em;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin: 0.75rem 0 1.25rem 1.75rem;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            font-weight: 500;
+            transition: color 0.15s ease-in-out;
+        }
+
+        a:hover,
+        a:focus {
+            color: var(--accent-hover);
+        }
+
+        .contact-card,
+        .developer-card {
+            background-color: var(--bg-color);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-top: 0.75rem;
+        }
+
+        .contact-card p,
+        .developer-card p {
+            margin-bottom: 0.35rem;
+            color: var(--text-secondary);
+        }
+
+        .contact-card p:last-child,
+        .developer-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 1.25rem 0.75rem;
+            }
+
+            .container {
+                padding: 1.75rem 1.25rem;
+                border-radius: 8px;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            h2 {
+                font-size: 1.15rem;
+            }
+
+            ul {
+                margin-left: 1.25rem;
+            }
+        }
+
+        @media print {
+            body {
+                background: none;
+                color: #000;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+                border: none;
+                max-width: 100%;
+                padding: 0;
+            }
+
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <div class="meta-badges">
+                <span class="badge">Official Policy</span>
+                <span class="badge">LifePath</span>
+                <span class="badge">InfraAgentAI</span>
+            </div>
+            <h1>LifePath Privacy Policy</h1>
+            <p class="last-updated">Last updated: September 29, 2026</p>
+        </header>
+
+        <div class="intro">
+            <p>LifePath is a personal planning application designed to help users organize important life milestones through personalized readiness assessments, priority areas, action checklists, and saved plans.</p>
+            <p>This Privacy Policy explains how LifePath handles information when you use the application.</p>
+        </div>
+
+        <section class="policy-section">
+            <h2>1. Information stored by LifePath</h2>
+            <p>LifePath may store information that you enter into the app, including:</p>
+            <ul>
+                <li>Your selected planning journey</li>
+                <li>Answers to questions within a planning journey</li>
+                <li>Readiness and result information generated from those answers</li>
+                <li>Checklist completion status</li>
+                <li>Saved plan information</li>
+                <li>App settings and navigation state required for the app to function</li>
+            </ul>
+            <p>This information may be stored locally on your device using the app's local storage.</p>
+            <p>LifePath does not require you to create an account.</p>
+        </section>
+
+        <section class="policy-section">
+            <h2>2. How your information is used</h2>
+            <p>Information entered into LifePath is used to:</p>
+            <ul>
+                <li>Generate your planning result</li>
+                <li>Display priority areas</li>
+                <li>Generate action checklists</li>
+                <li>Save your plan for later use</li>
+                <li>Provide the app's core functionality</li>
+            </ul>
+            <p>LifePath does not use your planning information for advertising purposes.</p>
+        </section>
+
+        <section class="policy-section">
+            <h2>3. Data transmission</h2>
+            <p>The core LifePath planning experience is designed to operate locally on your device.</p>
+            <p>LifePath does not require a server account to create or save a plan.</p>
+            <p>The app does not require access to your contacts, camera, microphone, precise location, or phone call information for its core planning functionality.</p>
+        </section>
+
+        <section class="policy-section">
+            <h2>4. Sharing your plan</h2>
+            <p>If you choose to use your device's share functionality, information may be passed to the sharing application or service you select.</p>
+            <p>Once information is shared with another application or service, that service's own privacy policy applies.</p>
+        </section>
+
+        <section class="policy-section">
+            <h2>5. Payments</h2>
+            <p>LifePath may provide links to purchase optional paid products.</p>
+            <p>When you choose to make a purchase, the app may open an external checkout page operated by the payment provider.</p>
+            <p>Payment information, including payment credentials, is handled by the external payment provider and is not entered directly into LifePath.</p>
+            <p>The payment provider's own terms and privacy policy apply to information processed during checkout.</p>
+        </section>
+
+        <section class="policy-section">
+            <h2>6. Advertising</h2>
+            <p>LifePath does not currently display third-party advertising within the app.</p>
+        </section>
+
+        <section class="policy-section">
+            <h2>7. Analytics and tracking</h2>
+            <p>LifePath does not currently require an advertising identifier or third-party analytics service for its core functionality.</p>
+            <p>If analytics, advertising, or other third-party services are added in a future version, this Privacy Policy and the applicable Google Play disclosures will be updated before or when those services are introduced, as required.</p>
+        </section>
+
+        <section class="policy-section">
+            <h2>8. Data retention and deletion</h2>
+            <p>Information stored locally by LifePath remains on the user's device until it is removed by the app, cleared through the device's app settings, or the app is uninstalled, subject to the operating system's behavior.</p>
+            <p>Because LifePath does not require an online account for its core functionality, there is no LifePath account that users must delete.</p>
+            <p>Information voluntarily shared through an external sharing application or entered into an external payment provider is subject to that provider's retention and deletion practices.</p>
+        </section>
+
+        <section class="policy-section">
+            <h2>9. Children's privacy</h2>
+            <p>LifePath is not specifically directed toward children.</p>
+            <p>The app is intended for general users and is not designed to knowingly collect personal information from children.</p>
+        </section>
+
+        <section class="policy-section">
+            <h2>10. Security</h2>
+            <p>LifePath is designed to minimize unnecessary collection of information. Information stored locally is subject to the security mechanisms provided by the user's Android device.</p>
+            <p>No method of electronic storage or transmission can be guaranteed to be completely secure.</p>
+        </section>
+
+        <section class="policy-section">
+            <h2>11. Changes to this Privacy Policy</h2>
+            <p>This Privacy Policy may be updated when LifePath's functionality, data practices, or applicable requirements change.</p>
+            <p>The updated version will include a revised "Last updated" date.</p>
+        </section>
+
+        <section class="policy-section">
+            <h2>12. Contact</h2>
+            <p>For privacy-related questions regarding LifePath:</p>
+            <div class="contact-card">
+                <p><strong>InfraAgentAI</strong></p>
+                <p>Email: <a href="mailto:infraagentai@gmail.com">infraagentai@gmail.com</a></p>
+            </div>
+        </section>
+
+        <section class="policy-section">
+            <h2>13. Developer information</h2>
+            <div class="developer-card">
+                <p><strong>App:</strong> LifePath</p>
+                <p><strong>Developer/Business:</strong> InfraAgentAI</p>
+                <p><strong>Country:</strong> India</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 InfraAgentAI. All rights reserved.</p>
+        </footer>
+    </main>
+</body>
+</html>
